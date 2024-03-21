@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #141B25;
+    font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+    
+}
+/*DEBUT DU DESIGN DU HEADER*/
+header h3{
+     font-optical-sizing: auto;
+     font-weight:500;
+     font-style: normal;
+     color: #4999a9;
+     font-size: 30px;
+     width: 20%;
+     text-align: center;
+}
+.point{
+    font-size: 35px;
+    color: white;
+}
+.trait{
+    width: 20px;
+    color: purple;
+    border-style:solid;
+}
+
+nav{
+   width: 80%;
+   position: relative;
+   left: 25%;
+   top: -60px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin-right: 150px;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 50px;
+}
+nav ul li a{
+     text-decoration: none;
+     font-optical-sizing: auto;
+     font-weight:500;
+     font-style: normal;
+     font-size: 20px;
+     text-transform: lowercase;
+     color: white;
+    
+}
+.cover{
+      width: 100%;
+      height: 500px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: top;
+      line-height: 0px;
+      background-image: url('cover.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+}
+.cover h1{
+    
+    font-size: 100px;
+    color:white;
+    letter-spacing: 5px;
+}
+.cover h2{
+    
+    color: white;
+}
+/*FIN DU DESIGN DU HEADER*/
+
+/*les sections- debut*/
+section #expertise{
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+section h1{
+    
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+section h2{
+    
+    font-size: 20px;
+    color: white;
+}
+article{
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: 200px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+p{
+  
+  line-height: 30px;
+  color: white;
+  
+}
+.bloc-gauche{
+  width: 50%;
+  color: white;
+  text-align: center;
+  
+  line-height: 100px;
+}
+
+#mon-travail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mon-cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#mon-cv a{
+    display:block;
+    text-decoration: none;
+    color: purple;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* formulaire */
+#formulaire{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#formulaire div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+#formulaire div input{
+    width: 50%;
+    height: 30px;
+    
+}
+
+
+
+/* footer*/
+footer{
+    font-size: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
